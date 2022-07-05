@@ -1,0 +1,94 @@
+body{
+    font-family: "Lexend Deca", sans-serif;
+    text-align: center;
+    margin: 0;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(0, 0%, 95%);
+    line-height: 2;
+    font-size: 1em;
+}
+
+h1{
+    font-family: "Big Shoulders Display","Oswald", sans-serif;
+    color:hsl(0, 0%, 95%) ;
+    font-size: 2.5em;
+}
+
+.outer-section{
+    height: min-content;
+  
+    overflow: hidden;
+    width: fit-content;
+    border-radius: 8px;
+    margin: 100px auto 100px;  
+}
+
+.car{
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+    padding: 50px;
+    height: 450px;
+    /* position: relative;
+    top: 125px; */
+}
+
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+  .btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #e38826;
+    font-size: 16px;
+    background: #f2f2f2;
+    padding: 12px 26px 12px 26px;
+    border: solid #f2f2f2 2px;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+  }
+  
+  .btn:hover {
+    background: #e38826;
+    text-decoration: none;
+    color: #f2f2f2;
+  }
+
+  .ac{
+    color: #e38826;
+  }
+  .ac:hover{
+    background: #e38826;
+    text-decoration: none;
+    color: #f2f2f2;
+  }
+
+  .bc{
+    color: hsl(184, 100%, 22%);
+  }
+  .bc:hover{
+    background: hsl(184, 100%, 22%);
+    text-decoration: none;
+    color: #f2f2f2;
+  }
+
+  .cc{
+    color: hsl(179, 100%, 13%);
+  }
+  .cc:hover{
+    background: hsl(179, 100%, 13%);
+    text-decoration: none;
+    color: #f2f2f2;
+  }
