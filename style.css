@@ -15,7 +15,7 @@ h1{
 }
 
 .outer-section{
-    height: min-content;
+    /* height: min-content; */
   
     overflow: hidden;
     width: fit-content;
